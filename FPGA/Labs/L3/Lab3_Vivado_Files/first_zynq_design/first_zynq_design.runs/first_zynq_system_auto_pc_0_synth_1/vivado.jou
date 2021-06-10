@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 15 22:49:46 2021
+# Process ID: 25516
+# Current directory: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1
+# Command line: vivado.exe -log first_zynq_system_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_auto_pc_0.tcl
+# Log file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1/first_zynq_system_auto_pc_0.vds
+# Journal file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_pc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_auto_pc_0.tcl -notrace

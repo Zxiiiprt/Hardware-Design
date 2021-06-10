@@ -1,0 +1,289 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 15 18:32:28 2021
+# Process ID: 19204
+# Current directory: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1
+# Command line: vivado.exe -log Top_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_adder.tcl
+# Log file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1/Top_adder.vds
+# Journal file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_adder.tcl -notrace
+Command: synth_design -top Top_adder -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2244 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 326.500 ; gain = 116.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_adder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Top_adder.vhd:39]
+INFO: [Synth 8-3491] module 'Adder' declared at 'C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Adder.vhd:34' bound to instance 'A1' of component 'Adder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Top_adder.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'Adder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Adder.vhd:42]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/FullAdder.vhd:34' bound to instance 'FA1' of component 'FullAdder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Adder.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/FullAdder.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (1#1) [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/FullAdder.vhd:42]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/FullAdder.vhd:34' bound to instance 'FA2' of component 'FullAdder' [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Adder.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Adder' (2#1) [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Adder.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Top_adder' (3#1) [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/sources_1/new/Top_adder.vhd:39]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port led[3]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 363.832 ; gain = 153.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 363.832 ; gain = 153.703
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc]
+WARNING: [Vivado 12-507] No nets matched 'btn_IBUF[0]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:4]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:4]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.srcs/constrs_1/new/Zybo_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_adder_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_adder_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 648.398 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design Top_adder has unconnected port led[3]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Top_adder has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUF  |     3|
+|2     |OBUFT |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 648.398 ; gain = 113.168
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 648.398 ; gain = 438.270
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 17 Warnings, 7 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 648.398 ; gain = 404.410
+INFO: [Common 17-1381] The checkpoint 'C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1/Top_adder.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 648.398 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 15 18:32:54 2021...

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Counter/Counter.srcs/sources_1/new/Counter_design1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Counter_design1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Counter/Counter.srcs/sources_1/new/Counter_design2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Counter_design2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Counter/Counter.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testbench
