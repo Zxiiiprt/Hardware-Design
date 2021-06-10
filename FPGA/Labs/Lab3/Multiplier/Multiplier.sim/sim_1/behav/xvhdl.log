@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/Multiplier/Multiplier.srcs/sources_1/new/HalfAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HalfAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/Multiplier/Multiplier.srcs/sources_1/new/Multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/Multiplier/Multiplier.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testbench

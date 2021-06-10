@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 15 18:32:28 2021
+# Process ID: 19204
+# Current directory: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1
+# Command line: vivado.exe -log Top_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_adder.tcl
+# Log file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1/Top_adder.vds
+# Journal file: C:/Users/anyho/FPGA/Projects/SYSC3320/Labs/Lab3/FullAdder/FullAdder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_adder.tcl -notrace

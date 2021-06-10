@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 05 18:16:16 2021
+# Process ID: 11536
+# Current directory: C:/Users/anyho/FPGA/Projects/SYSC3320/Lab2_Decoder_2_4/Lab2_Decoder_2_4.runs/impl_1
+# Command line: vivado.exe -log Top_Decoder_2_to_4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_Decoder_2_to_4.tcl -notrace
+# Log file: C:/Users/anyho/FPGA/Projects/SYSC3320/Lab2_Decoder_2_4/Lab2_Decoder_2_4.runs/impl_1/Top_Decoder_2_to_4.vdi
+# Journal file: C:/Users/anyho/FPGA/Projects/SYSC3320/Lab2_Decoder_2_4/Lab2_Decoder_2_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Decoder_2_to_4.tcl -notrace
